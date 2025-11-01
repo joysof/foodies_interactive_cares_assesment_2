@@ -1,0 +1,50 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body staty  */
+body{
+    background-color: #fff;
+}
+/* Navbar container */
+nav {
+text-transform: capitalize;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: black;
+  padding: 15px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Brand name */
+nav h4 {
+    width: 120px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color:#06c167;
+}
+
+/* Menu list */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+/* Menu links */
+nav ul li a {
+    list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+  color: black;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  color: #06c167;
+  padding-bottom: 3px;
+}

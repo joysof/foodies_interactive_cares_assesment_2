@@ -6,10 +6,32 @@
 }
 /* body staty  */
 body{
-    background-color: #fff;
+    font-weight: 400;
 }
+.title{
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.btn{
+    width: 200px;
+    height: 65px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: #06c167;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
 /* Navbar container */
 nav {
+     background: #f3fcf7;
+     padding:0 60px;
 text-transform: capitalize;
   display: flex;
   justify-content:space-between;
@@ -48,3 +70,117 @@ nav ul li a:hover {
   color: #06c167;
   padding-bottom: 3px;
 }
+
+/* end nav  */
+
+/* start hero section  */
+
+/* left side  */
+.hero {
+padding: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+    background: #f3fcf7;
+}
+.hero_left_site{
+    height:50%;
+    background: #f3fcf7;
+}
+.hero_right_side{
+    text-transform: capitalize;
+    position: relative;
+    display: flex;
+    padding-right: 100px;
+    margin-bottom:-100px;
+  
+}
+.des{
+    font-weight: 400;
+    font-size: 16px;
+    width: 533px;
+    margin: 25px 0;
+}
+.baner_img_container{
+     border-radius: 0 0 30px 30px;
+     width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 60px;
+}
+.baner_img{
+    width: 468px;
+    height: 634px;
+    clip-path: polygon(
+
+    0% 0%, 
+    100% 0%, 
+    100% 85%,  
+    100% 88%,   
+    0% 96%
+  );
+  border-radius: 20px;
+}
+.brand{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    background: white;
+    padding: 0 60px;
+}
+.brand img{
+    color: #394149;
+    width:155.19px;
+    cursor: pointer;
+    height:35.84px;
+}
+.rating {
+  position: absolute;
+  left: -90px; 
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 10px 18px;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 5;
+}
+
+.rating span {
+  font-weight: 600;
+}
+.quality {
+  position: absolute;
+  right:30px; 
+  top: 30%;
+  width: 230px;
+  height: 53px;
+  background-color: #fff;
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.quality img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/*  Polkadot (bottom right) */
+.polkadot {
+  position: absolute;
+  right: 30px;
+  bottom: -30px;
+  width: 120px;
+  opacity: 0.3;
+}
+/* end hero section  */

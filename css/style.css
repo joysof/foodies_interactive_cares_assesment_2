@@ -327,3 +327,21 @@ nav ul li a:hover {
     font-size: 16px;
     line-height: 50px;
 }
+
+
+/* product style  */
+.products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.products div{
+  width:270px;
+  height: 445px;
+}
+.products img{
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+}

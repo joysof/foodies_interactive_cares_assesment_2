@@ -17,7 +17,11 @@ section {
   font-weight: 600;
   font-size: 75px;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
 .btn {
   width: 200px;
   height: 65px;
@@ -68,9 +72,6 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
 /* Menu list */
 nav ul {
   display: flex;
@@ -81,7 +82,6 @@ nav ul {
 /* Menu links */
 nav ul li a {
   list-style: none;
-  text-decoration: none;
   font-weight: 500;
   transition: color 0.3s, border-bottom 0.3s;
   color: black;
@@ -392,4 +392,59 @@ nav ul li a:hover {
   text-align: center;
   margin: auto;
   margin-top: 30px;
+}
+
+/* footer  */
+.footer_content {
+
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+footer li{
+  line-height: 30px;
+}
+
+.company_detals{
+  width: 284px;
+}
+.company_detals h4{
+  margin-bottom: 50px;
+}
+.company_detals i{
+  margin: 30px 30px;
+  cursor: pointer;
+}
+.footer_title{
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+
+.subscribe{
+  width: 338px;
+}
+.subscribe input{
+  background: #f0f1ec;
+  border: none;
+  outline: none;
+  border: none;
+
+  padding-left: 15px;
+}
+.subscribe button{
+  height: 50px;
+}
+.subscribe div{
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  height: 50px;
+}
+
+.copyright_text{
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: capitalize;
 }

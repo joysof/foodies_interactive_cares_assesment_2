@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css">
     <title>Foodies</title>
   </head>
   <body>
@@ -302,7 +303,8 @@
     </main>
     
     <footer>
-      <div>
+      <div class="footer_content">
+        <div class="company_detals">
         <h4 class="logo">foodies</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odio debitis veniam facere expedita? Optio assumenda deserunt et perspiciatis similique.
@@ -329,10 +331,34 @@
         <ul>
           <li><a href="#about">partnership us</a></li>
           <li><a href="#service">terms of use </a></li>
-          <li><a href="#contact">contact</a></li>
-          <li><a href="#conpany">company</a></li>
+          <li><a href="#contact">privacy</a></li>
+          <li><a href="#conpany">sitemap</a></li>
         </ul>
       </div>
+      <div class="subscribe">
+        <h5 class="footer_title">get in touch</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam fugiat maxime quae porro exercitationem 
+        </p>
+        <div>
+          <input type="email" placeholder="email">
+          <button class="btn">subscribe</button>
+        </div>
+      </div>
+     
+      </div>
+       <p class="copyright_text">copyright © 2025 Foodies</p>
     </footer>
   </body>
+
+
+  <script>
+  const toggleBtn = document.getElementById('toggleBtn');
+  const navLinks = document.getElementById('navLinks');
+
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
 </html>

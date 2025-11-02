@@ -1,0 +1,127 @@
+/* 📱 Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  body {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .hero_right_side {
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .baner_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .brand {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  #service {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  #benefit {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #benefit img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #stars {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .products {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer_content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .subscribe {
+    width: 100%;
+  }
+}
+
+/* 💻 Tablet (601px - 992px) */
+@media (min-width: 601px) and (max-width: 992px) {
+  nav {
+    padding: 15px 40px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 30px;
+    gap: 40px;
+  }
+
+  .baner_img {
+    width: 80%;
+    height: auto;
+  }
+
+  #benefit {
+    flex-direction: column;
+  }
+
+  #stars {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .products {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer_content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+}

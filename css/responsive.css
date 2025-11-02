@@ -27,13 +27,14 @@
     top: 70px;
     left: -100%;
     width: 100%;
-    flex-direction: column;
     gap: 10px;
     width: 100%;
     transition: left 0.3s ease;
   }
   .nav-links.active {
-    left: 40%;
+    left: 5%;
+    display: flex;
+    font-size: 14px;
   }
   .toggle-btn {
     display: block;
@@ -130,7 +131,6 @@
     height: auto;
     margin: 0 auto;
     margin-bottom: 20px;
-    margin-top: -30px;
   }
 .be_right{
   margin-top: 50px;
@@ -148,16 +148,17 @@
   #stars {
     flex-direction: column-reverse;
     align-items: center;
+    margin-top: 100px;
   }
   #stars img {
-   text-align: center;
-   margin-bottom: 20px;
-   margin-top: -50px;
-   margin-right: 20px;
+   width: 277px;
+   height: 489px;
+  margin: 0px 20px;
+  margin-top: -50px;
   }
-.start_left{
+/* .start_left{
   margin-top: 50px;
-}
+} */
 .start_left h6{
   margin-bottom: 20px;
 }
@@ -245,7 +246,9 @@
 }
 
 
-/*  Tablet (601px - 992px) */
+/*  Tablet (601px - 992px) */ 
+
+/*  Tab design uncompleted !!  */
 @media (min-width: 601px) and (max-width: 992px) {
   nav {
     padding: 15px 40px;

@@ -58,6 +58,9 @@ h3 {
   color: #06c167;
   text-transform: capitalize;
 }
+nav ul li {
+  position: relative;
+}
 
 /* Navbar container */
 nav {
@@ -92,11 +95,26 @@ nav ul li a {
 }
 
 /* Hover effect */
-nav ul li a:hover {
-  color: #06c167;
+nav ul li a::after {
   padding-bottom: 3px;
+  content: '';
+  position: absolute;
+  bottom: -10px;   
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #06c167;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.3s ease;
 }
-
+nav ul li a:hover::after {
+  opacity: 1;
+}
+nav ul li a:hover{
+  color: #06c167;
+}
 /* end nav  */
 
 /* start hero section  */

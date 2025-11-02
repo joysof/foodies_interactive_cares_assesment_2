@@ -171,6 +171,8 @@
 #features{
   margin-top: 100px;
   text-align: center;
+  padding: 0 auto;
+  margin: 0 auto;
 }
 #features h6{
   margin-bottom: -30px;
@@ -199,20 +201,46 @@
   .container .content:nth-child(6) { order: 5; }
   .container .content:nth-child(7) { order: 8; }
   .container .content:nth-child(8) { order: 7; } 
+  
+  
   .products {
     flex-direction: column;
-    gap: 20px;
   }
-
+  .Product_content {
+    margin: 10px 0;
+  }
   .footer_content {
     flex-direction: column;
     gap: 30px;
     text-align: center;
     align-items: center;
   }
-
-  .subscribe {
+  .company_detals h4{
+    margin: 50px auto;
+  }
+  .subscribe{
+    width: 316px;
+    text-align: center;
+  }
+  .subscribe div{
+    width: 316px;
+    display: flex;
+    flex-direction: column;
     width: 100%;
+  }
+  .subscribe input{
+    padding: 10px;
+    text-align: center;
+  }
+  .subscribe button{
+    padding: 10px;
+    text-align: center;
+  }
+  .copyright_text{
+    margin-top: 100px;
+  }
+  .company_detals i{
+    margin: 30px 10px;
   }
 }
 

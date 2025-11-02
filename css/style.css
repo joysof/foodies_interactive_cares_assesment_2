@@ -379,7 +379,8 @@ nav ul li a:hover {
   border-radius: 100%;
 }
 #try_product {
-  background-image: url('/images/try_bg.png');
+  background-image:linear-gradient(rgba(2,2,2,0.5), rgba(2,2,2,0.5)) , 
+    url('/images/try_bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -332,13 +332,39 @@ nav ul li a:hover {
 /* product style  */
 .products{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-top: 50px;
 }
-.products div{
-  width:270px;
-  height: 445px;
+.products i{
+  color: #06c167;
+}
+.Product_content{
+  padding: 30px;
+  border: 2px solid #76767540;
+}
+.Product_content p{
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 15px 0px;
+}
+.Product_content button{
+  text-transform: capitalize;
+  background: white;
+  color: #06c167;
+  border: 2px solid #06c167;
+  margin-top: 10px;
+  font-size: 16px;
+  width: 177px;
+  height: 57px;
+}
+.product_price{
+  color: #767675;
+}
+.product_price span{
+  color: #06c167;
+  margin-left: 10px;
 }
 .products img{
   width: 190px;

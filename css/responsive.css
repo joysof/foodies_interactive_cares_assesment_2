@@ -3,12 +3,14 @@
   body {
     max-width: 100%;
     padding: 0 15px;
+    text-align: center;
   }
   section{
     margin-top: 36px;
   }
   h2 {
-    font-size: 51px;
+    font-size: 35px;
+    text-transform: capitalize;
   }
   h3 {
     font-size: 18px;
@@ -45,6 +47,9 @@
     gap: 30px;
     margin: auto;
     overflow: hidden;
+  }
+  .hero h2{
+    font-size: 51px;
   }
   .quality{
     position: absolute;
@@ -141,9 +146,28 @@
   align-items: start;
 }
   #stars {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
+  #stars img {
+   text-align: center;
+   margin-bottom: 20px;
+   margin-top: -50px;
+   margin-right: 20px;
+  }
+.start_left{
+  margin-top: 50px;
+}
+.start_left h6{
+  margin-bottom: 20px;
+}
+.stares_detals{
+  display: flex;
+  flex-direction: column;
+}
+.stares_detals div{
+ margin: 20px 0;
+}
 
   .container {
     grid-template-columns: repeat(1, 1fr);
